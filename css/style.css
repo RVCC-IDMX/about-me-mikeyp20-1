@@ -1,0 +1,29 @@
+body {
+    color:#00ECBF;
+    background-color: #FFA500;
+    font-family: Bebas Neue, "Times New Roman",serif;
+}
+header {
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Anton, "Impact",sans-serif;
+    font-size: 300%;
+}
+#hero , footer {
+    text-align:center;
+    background-color: #FFFF00;
+    padding:20px;
+    border:10px outset white;
+    border-radius: 40px;
+}
+#hero img {
+    width: 250px;
+}
+#bio{
+    text-align: center;
+}
+#logo {
+    width: 250px;
+    height: 50px;
+}

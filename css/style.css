@@ -33,6 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 #gallery {
     border: 4px solid white;
+    margin-bottom:2rem;
 }
 
 #gallery img {
@@ -40,4 +41,23 @@ h1,h2,h3,h4,h5,h6 {
 }
 #gallery figure {
     text-align: center;
+}
+
+#lit {
+    border: 4px solid white;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width: 40rem;
+    margin: 0 auto;    
+}
+
+#lit div p:first-child::first-letter{
+    color:white;
+    float:left;
+    font-size:5em;
+    margin-right:.25em;
+    line-height:.65;
 }

@@ -31,3 +31,13 @@ h1,h2,h3,h4,h5,h6 {
 #hobbies ul li:nth-child(odd) {
     color:#FFFF00;
 }
+#gallery {
+    border: 4px solid white;
+}
+
+#gallery img {
+    max-width:100%;
+}
+#gallery figure {
+    text-align: center;
+}

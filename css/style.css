@@ -28,12 +28,23 @@ h1,h2,h3,h4,h5,h6 {
     height: 50px;
 }
 
+/* Hobbies */
+
 #hobbies ul li:nth-child(odd) {
     color:#FFFF00;
 }
+#hobbies {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+/* Gallery */
+
 #gallery {
     border: 4px solid white;
     margin-bottom:2rem;
+    text-align: center;
 }
 
 #gallery img {
@@ -43,15 +54,17 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
 }
 
-#lit {
+#lit,#video {
     border: 4px solid white;
     margin-bottom:2rem;
+    text-align: center;
 }
 
 #lit div {
     padding:2rem;
     max-width: 40rem;
-    margin: 0 auto;    
+    margin: 0 auto;  
+    color:white; 
 }
 
 #lit div p:first-child::first-letter{
@@ -60,4 +73,45 @@ h1,h2,h3,h4,h5,h6 {
     font-size:5em;
     margin-right:.25em;
     line-height:.65;
+}
+
+#videoContainerContainer {
+    max-width:100%;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:5rem;
+}
+
+#videoContainer {
+   position:relative;
+   overflow:hidden;
+   width:100%;
+   padding-top:56.25%; 
+}
+
+#myVideo {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+}
+
+@media screen and (min-width: 60em) {
+    figure{
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    figcaption{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+ 
+
 }
